@@ -7,8 +7,10 @@ export default function Banner() {
     <>
       <section className="banner">
         <img src={Logo} alt="" className="bg" />
-        <img src={smimg} alt="" className="sm"/>
-        <div className="bannerText">LET'S BE FRIENDS</div>
+        <img src={smimg} alt="" className="sm" />
+        <div className="bannerText">
+          <div className="container">LET'S BE FRIENDS</div>
+        </div>
         <a href="#">Log In/Sign In</a>
       </section>
     </>
