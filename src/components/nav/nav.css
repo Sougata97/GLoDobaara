@@ -72,7 +72,9 @@
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
-    
+    background-color: var(--pink);
+    padding: 8px 13px;
+    border-radius: 5px;
   }
   .nav > .nav-btn > label {
     display: inline-block;

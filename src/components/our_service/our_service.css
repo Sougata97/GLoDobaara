@@ -1,32 +1,123 @@
-.our_service{
-    color: var(--black);
-    padding: 30px 0;
+.our_service {
+  color: var(--black);
+  padding: 30px 0;
 }
-.heading h2{
-    font-weight: 400;
-    font-size: 30px;
-    margin-bottom: 20px;
+.heading h2 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
-.box-wrap{
-    justify-content: space-between;
+.box-wrap {
+  justify-content: space-between;
 }
-.box-wrap ul{
-    width: 45%;
+.our-wrap {
+  position: relative;
 }
-.box-wrap ul li{
-   position: relative;
-   margin-bottom: 10px;
+.box-wrap ul {
+  width: 45%;
 }
-.btn-box
-{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+.box-wrap ul li {
+  position: relative;
+  margin-bottom: 10px;
 }
-.btn-box a{
-    border: 3px solid var(--blue);
-    padding: 4px 35px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
+.btn-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.btn-box a {
+  border: 3px solid var(--blue);
+  padding: 4px 35px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.content {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.box .img,
+.box .text {
+  width: 48%;
+}
+.box .img img {
+  width: 100%;
+}
+.box .text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.box .text p {
+  font-family: helvel;
+  font-size: 18px;
+}
+.box .text a {
+  background-color: var(--blue);
+  border-radius: 15px;
+  padding: 3px 9px;
+  font-family: helvel;
+  color: var(--white);
+  font-weight: 400;
+  width: 90px;
+  text-align: center;
+}
+.text-left {
+  flex-direction: row-reverse;
+}
+.text-left .text {
+  align-items: flex-start;
+}
+.more {
+  position: absolute;
+  top: 53%;
+  right: 0;
+  transform: translateY(-50%);
+  
+}
+.more a {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: 400;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 7px 4px;
+  border-radius: 15px;
+}
+.btn{
+    transition: all 0.5s;
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn:hover{
+    background-color: var(--pink) !important;
+}
+.btn:hover span {
+  padding-right: 12px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
