@@ -32,36 +32,36 @@
   font-size: 18px;
   font-weight: 600;
 }
-.content {
+.our_service .content {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.box {
+.our_service .box {
   width: 48%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 40px;
 }
-.box .img,
-.box .text {
+.our_service .box .img,
+.our_service .box .text {
   width: 48%;
 }
-.box .img img {
+.our_service .box .img img {
   width: 100%;
 }
-.box .text {
+.our_service .box .text {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-end;
 }
-.box .text p {
+.our_service .box .text p {
   font-family: helvel;
   font-size: 18px;
 }
-.box .text a {
+.our_service .box .text a {
   background-color: var(--blue);
   border-radius: 15px;
   padding: 3px 9px;
@@ -75,14 +75,13 @@
   flex-direction: row-reverse;
 }
 .text-left .text {
-  align-items: flex-start;
+  align-items: flex-start !important;
 }
 .more {
   position: absolute;
   top: 53%;
   right: 0;
   transform: translateY(-50%);
-  
 }
 .more a {
   writing-mode: vertical-rl;
@@ -93,8 +92,8 @@
   padding: 7px 4px;
   border-radius: 15px;
 }
-.btn{
-    transition: all 0.5s;
+.btn {
+  transition: all 0.5s;
 }
 .btn span {
   cursor: pointer;
@@ -103,15 +102,15 @@
   transition: 0.5s;
 }
 .btn span:after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
   right: -20px;
   transition: 0.5s;
 }
-.btn:hover{
-    background-color: var(--pink) !important;
+.btn:hover {
+  background-color: var(--pink) !important;
 }
 .btn:hover span {
   padding-right: 12px;
@@ -120,4 +119,52 @@
 .btn:hover span:after {
   opacity: 1;
   right: 0;
+}
+@media (max-width: 950px) {
+  .our_service .box {
+    flex-direction: column;
+    width: 32%;
+  }
+  .our_service .box .img,
+  .our_service .box .text {
+    width: 80%;
+  }
+  .our_service .box .text p{
+    margin-bottom: 15px;
+  }
+  .our_service .content{
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 730px){
+      .our_service .box{
+        width: 40%;
+      }
+      .our_service .box .img,
+  .our_service .box .text {
+    width: 100%;
+  }
+}
+@media (max-width: 500px){
+  .our_service .box{
+        width: 100%;
+      }
+      .our_service .box .img,
+  .our_service .box .text {
+    width: 80%;
+  }
+  .our_service .box .img{
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 400px){
+  .our_service .box{
+        width: 100%;
+        margin-bottom: 25px;
+      }
+      .our_service .box .img,
+  .our_service .box .text {
+    width: 100%;
+  }
+  
 }

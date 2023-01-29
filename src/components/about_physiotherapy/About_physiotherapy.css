@@ -43,8 +43,13 @@ width: 60%;
         text-align: justify;
     }
 }
+@media (max-width: 767px){
+    .about_physiotherapy .box{
+        width: 68%;
+    }
+}
 @media (max-width: 500px){
-    .box{
-        width: 80%;
+    .about_physiotherapy .box{
+        width: 100%;
     }
 }

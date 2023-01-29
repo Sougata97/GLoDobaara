@@ -18,7 +18,7 @@ export default function Apply() {
             </div>
           </div>
         </div>
-        <div className="d-flex align-center about-box-apply">
+        <div className="sp-wrap-about about-box-apply">
           <div className="leftimg">
             <img src={img1} alt="" />
           </div>

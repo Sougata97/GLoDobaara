@@ -92,7 +92,7 @@ background: linear-gradient(0deg, rgba(216,64,137,1) 0%, rgba(41,105,177,1) 42%)
         margin: 0;
     }
 }
-@media (max-width: 767px){
+@media (max-width: 525px){
     .box-left,.box-right{
         width: 100%;
     }

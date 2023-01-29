@@ -65,9 +65,9 @@
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 790px) {
   .nav > .nav-btn {
-    display: inline-block;
+    display: flex;
     position: absolute;
     right: 10px;
     top: 50%;
