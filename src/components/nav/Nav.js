@@ -1,6 +1,7 @@
 import React from "react";
 import "./nav.css";
 import Logo from "./l.png";
+import { Link } from "react-router-dom";
 
 export default function nav() {
   return (
@@ -9,9 +10,9 @@ export default function nav() {
         <div className="nav align-center">
           <input type="checkbox" id="nav-check" />
           <div className="nav-header">
-            <a href="#" className="logo">
+            <Link to="/" className="logo">
               <img src={Logo} alt="" />
-            </a>
+            </Link>
           </div>
           <div className="nav-btn">
             <label htmlFor="nav-check">
@@ -22,10 +23,10 @@ export default function nav() {
           </div>
 
           <div className="nav-links">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
+            <Link to="/">Home</Link>
+            <Link to="/about">About Us</Link>
             <a href="#">Contacts</a>
-            <a href="#">Services</a>
+            <Link to="/services">Services</Link>
           </div>
         </div>
       </section>
