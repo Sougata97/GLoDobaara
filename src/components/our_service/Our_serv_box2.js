@@ -1,21 +1,23 @@
-import React from 'react';
-import img from "../our_service/img.png";
+import React from "react";
 
+// import img from "../our_service/img.png";
 
-export default function Our_serv_box2() {
+export default function Our_serv_box2(props) {
   return (
     <>
       <div className="box text-left">
         <div className="img">
-          <img src={img} alt="" />
+          <img src={props.img} alt="" />
         </div>
         <div className="text">
-          <p>
-            Let’s spend some quality time together. Book an appointment with our
-            representative and spend some quality time playing cards, carom,
-            chess, reading, books, or simply by adda
-          </p>
-          <a href="#" className='btn'><span>Book Now</span></a>
+          <p>{props.p}</p>
+          <div className="text-service">
+            <a href="/build_pages" className="btn">
+              <span>{props.btn_text}</span>
+            </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <span>{props.extrabtn}</span>
+          </div>
         </div>
       </div>
     </>

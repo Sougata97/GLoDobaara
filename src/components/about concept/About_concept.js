@@ -27,7 +27,7 @@ export default function About_concept() {
                 perspiciatis! Doloremque similique rerum facere sequi eum
                 dolorem unde temporibus sunt? Dolorem
                           </p>
-                          <a href="#"><span>Read More</span></a>
+                          <a href="/build_pages"><span>Read More</span></a>
             </div>
             <div className="box-right">
               <img src={bg} alt="" />

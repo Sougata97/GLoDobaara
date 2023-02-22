@@ -10,9 +10,9 @@ export default function nav() {
         <div className="nav align-center">
           <input type="checkbox" id="nav-check" />
           <div className="nav-header">
-            <Link to="/" className="logo">
+            <a href="/" className="logo">
               <img src={Logo} alt="" />
-            </Link>
+            </a>
           </div>
           <div className="nav-btn">
             <label htmlFor="nav-check">
@@ -23,10 +23,10 @@ export default function nav() {
           </div>
 
           <div className="nav-links">
-            <Link to="/">Home</Link>
-            <Link to="/about">About Us</Link>
-            <a href="#">Contacts</a>
-            <Link to="/services">Services</Link>
+            <a href="/">Home</a>
+            <a href="/about">About Us</a>
+            <a href="/build_pages">Contacts</a>
+            <a href="/services">Services</a>
           </div>
         </div>
       </section>
