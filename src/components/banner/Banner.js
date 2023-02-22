@@ -12,7 +12,7 @@ export default function Banner() {
         <div className="bannerText">
           <div className="container">LET'S BE FRIENDS</div>
         </div>
-        <Link to="/login">Log In/Sign In</Link>
+        <a href="/build_pages">Log In/Sign In</a>
       </section>
     </>
   );

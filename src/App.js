@@ -12,24 +12,27 @@ import Error from "./components/error/Error";
 import Login from "./components/login/Login";
 import Footer_2 from "./components/footer2/Footer_2";
 import React, { useState, useEffect, CSSProperties } from "react";
-import SyncLoader from "react-spinners/BarLoader";
+import SyncLoader from "react-spinners/PuffLoader";
 
 function App() {
   const [loading, setloading] = useState(true);
   const override = {
-    display: "flex",
-    margin: "0 auto",
-    backgroundColor: "var(--white)",
-    height: "100vh",
-    justifyContent: "center",
-    alignItems: "center",
+    // margin: "0 auto",
+    // borderRadius: "50%",
+    // borderWidth: "4px",
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%,-50%)",
   };
-  const speed= 1, colorLoader= "var(--pink)",siZE= 15;
+  const speed = 2,
+    colorLoader = "var(--pink)",
+    siZE = 70;
   useEffect(() => {
     setloading(true);
     setTimeout(() => {
       setloading(false);
-    },2800);
+    }, 1500);
   }, []);
   return (
     <BrowserRouter>
@@ -68,7 +71,20 @@ function App() {
           path="/login"
           element={
             <>
-              <Login />
+              {loading ? (
+                <SyncLoader
+                  color={colorLoader}
+                  cssOverride={override}
+                  loading
+                  size={siZE}
+                  speedMultiplier={speed}
+                  myprops={"Loading"}
+                />
+              ) : (
+                <>
+                  <Login />
+                </>
+              )}
             </>
           }
         ></Route>
@@ -91,6 +107,7 @@ function App() {
                   <Banner />
                   <About_concept />
                   <Footer_1 />
+                  <Footer_2 />
                 </>
               )}
             </>
@@ -115,6 +132,7 @@ function App() {
                   <Banner />
                   <Our_service />
                   <Footer_1 />
+                  <Footer_2 />
                 </>
               )}
             </>
