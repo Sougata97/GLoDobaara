@@ -80,7 +80,18 @@ background: linear-gradient(0deg, rgba(216,64,137,1) 0%, rgba(41,105,177,1) 42%)
 .box-right img{
     width: 100%;
 }
-
+.more_box{
+    flex-direction: column-reverse;
+}
+.more_box .box-left{
+    width: 100%;
+    margin: 0;
+}
+.more_box .box-left ion-icon{
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: -1px;
+}
 @media (max-width: 767px){
     .about-box{
         flex-direction: column-reverse;
