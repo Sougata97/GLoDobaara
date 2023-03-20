@@ -14,6 +14,7 @@ import Footer_2 from "./components/footer2/Footer_2";
 import React, { useState, useEffect, CSSProperties } from "react";
 import SyncLoader from "react-spinners/PuffLoader";
 import More_concept from "./components/about concept/More_concept";
+import Book_appointment2 from "./components/book-appoinment/Book_appointment2";
 
 function App() {
   const [loading, setloading] = useState(true);
@@ -105,7 +106,7 @@ function App() {
                 <>
                   <Nav />
                   <Banner />
-                  <More_concept/>
+                  <More_concept />
                   <Footer_1 />
                   <Footer_2 />
                 </>
@@ -138,7 +139,31 @@ function App() {
             </>
           }
         ></Route>
-
+        <Route
+          path="/bookapointment"
+          element={
+            <>
+              {loading ? (
+                <SyncLoader
+                  color={colorLoader}
+                  cssOverride={override}
+                  loading
+                  size={siZE}
+                  speedMultiplier={speed}
+                  myprops={"Loading"}
+                />
+              ) : (
+                <>
+                  <Nav />
+                  <Banner />
+                  <Book_appointment2/>
+                  <Footer_1 />
+                  <Footer_2 />
+                </>
+              )}
+            </>
+          }
+        ></Route>
         <Route
           path="/user_Login"
           element={
@@ -159,7 +184,7 @@ function App() {
             </>
           }
         />
-        
+
         <Route
           path="*"
           element={

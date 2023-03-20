@@ -9,7 +9,7 @@ export default function Our_serv_box1(props) {
         </div>
         <div className="text">
           <p>{props.p}</p>
-          <a href="/build_pages" className="btn">
+          <a href={props.link} className="btn">
             {props.btn_text}
           </a>
         </div>

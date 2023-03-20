@@ -27,31 +27,37 @@ export default function Our_service() {
               img={img1}
               p="Let’s spend some quality time together. Book an appointment with our representative and spend some quality time playing cards, carom, chess, reading, books, or simply by adda"
               btn_text={<span>Book Now</span>}
+              link="/bookapointment"
             />
             <Our_serv_box2
               img={img2}
               p="Learn cooking, gardening, card playing, and singing, at your home as recreational activities. Book an appointment with our representative and start learning at home comfortably"
               btn_text="Book Now"
+              link="/build-pages"
             />
             <Our_serv_box2
               img={img3}
               p="Shall visit abroad soon? Learn spoken English, French, German, Japanese, etc as recreational activities. Book an appointment with our representatives."
               btn_text="Book Now"
+              link="/build-pages"
             />
             <Our_serv_box1
               img={img4}
               p="Boring of cooking at home? Book our Home Delivery Food service. Select Menu for seven days as per your food habit."
               btn_text={<span>Select Menu</span>}
+              link="/build-pages"
             />
             <Our_serv_box1
               img={img5}
               p="Do you have a reason to celebrate? We can organize your birthday, marriage anniversary, and rice ceremony as a remarkable day."
               btn_text={<span>Tell us about your Event</span>}
+              link="/build-pages"
             />
             <Our_serv_box2
               img={img6}
               p="Do you need a plumber, electrician, and mechanic? We can send one from thousands of our experts."
               btn_text="Book Now"
+              link="/build-pages"
             />
             <Our_serv_box2
               img={img7}
@@ -68,11 +74,13 @@ export default function Our_service() {
                   </a>
                 </>
               }
+              link="/build-pages"
             />
             <Our_serv_box1
               img={img8}
               p="Do you want to get the benefit of alternative medicines? Talk to experts in Homeopathy, Ayurveda, Physiotherapy, Yoga, etc."
               btn_text={<span>Learn More</span>}
+              link="/build-pages"
             />
           </div>
           <div className="more">

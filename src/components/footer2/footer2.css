@@ -12,6 +12,7 @@
 }
 .footer-box2:first-child {
   width: 28%;
+  margin-right: 40px;
 }
 .footer-box2 a {
   color: var(--white);
@@ -35,6 +36,7 @@
   }
   .footer-box2:first-child {
     width: 35%;
+    margin-right: 0;
   }
   .footer-box2:nth-child(2) {
     margin-left: 0px;
