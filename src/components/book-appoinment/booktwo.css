@@ -1,0 +1,81 @@
+.bookapmt2 {
+  padding: 25px 0;
+}
+.bookapmt2 .book-heading {
+  text-align: center;
+}
+.book-heading h2 {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #2963ac;
+}
+.book-heading p {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #7a7a7a;
+}
+.book-heading span {
+  width: 50px;
+  height: 4px;
+  display: inline-block;
+  background: #d9d9d9;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+.book-heading span:last-child {
+  margin: 0;
+}
+.book-heading span.pink {
+  background: #c71d6d;
+}
+.apointment2maincontent{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.apointment2maincontent .apt2-wrap-left{
+    width: 25%;
+}
+.apointment2maincontent .apt2-wrap-right{
+    width: 70%;
+}
+.apointment2maincontent .monthapt2 h2 {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+  color: #5e5e5f;
+}
+/* Banner */
+.BookBanner img {
+  outline: none;
+}
+.BookBanner .BookBannerText {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.BookBanner .BookBannerText h3:first-child,
+.BookBanner .BookBannerText img {
+  margin-right: 3px;
+}
+/* Banner */

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4c37d0e.css",
-    "main.js": "/static/js/main.41c1a482.js",
+    "main.css": "/static/css/main.d4c8ba53.css",
+    "main.js": "/static/js/main.938c5235.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/img5.png": "/static/media/img5.8e0e19f6222cb154aade.png",
     "static/media/logo.png": "/static/media/logo.5dc4fd0c0065bb614dfd.png",
@@ -15,11 +15,13 @@
     "static/media/bannerbgsm.jpg": "/static/media/bannerbgsm.3b9a0ef9a66208ad7d26.jpg",
     "static/media/pic1.jpg": "/static/media/pic1.c776f479e260d52e2597.jpg",
     "static/media/img.jpg": "/static/media/img.92501985f6a209a363b7.jpg",
+    "static/media/banner.jpg": "/static/media/banner.786255f15d9f3f5ebb29.jpg",
     "static/media/img6.png": "/static/media/img6.019f3d10112b1b51aa1f.png",
     "static/media/bgtwo.png": "/static/media/bgtwo.7523d0d2b34b24f5a648.png",
     "static/media/img2.png": "/static/media/img2.97ea8b34c8de6a098ab4.png",
     "static/media/pic3.jpg": "/static/media/pic3.3bab45b4551b3ccb24fa.jpg",
     "static/media/img1.png": "/static/media/img1.cd461b0870000d6d6de6.png",
+    "static/media/bannersm.jpg": "/static/media/bannersm.586a780f77783cc6519d.jpg",
     "static/media/pic2.jpg": "/static/media/pic2.a967a47f26b6ef4c4de0.jpg",
     "static/media/theimmortalexpand.ttf": "/static/media/theimmortalexpand.16eb3e8b24b693269a5e.ttf",
     "static/media/3.png": "/static/media/3.b5cc3016ed878e2e94cb.png",
@@ -29,13 +31,14 @@
     "static/media/whatsapp.svg": "/static/media/whatsapp.5523dd44b8d2afbe8d432e11bbbe1105.svg",
     "static/media/twitter.svg": "/static/media/twitter.2ca9fd6e98f4b4bfb741e3b1aac9a89a.svg",
     "index.html": "/index.html",
+    "static/media/arrow.svg": "/static/media/arrow.df32b470387a516381fd309215733f4d.svg",
     "static/media/facebook.svg": "/static/media/facebook.093ad1c02bb0227ef94ac04cd9b8e418.svg",
-    "main.b4c37d0e.css.map": "/static/css/main.b4c37d0e.css.map",
-    "main.41c1a482.js.map": "/static/js/main.41c1a482.js.map",
+    "main.d4c8ba53.css.map": "/static/css/main.d4c8ba53.css.map",
+    "main.938c5235.js.map": "/static/js/main.938c5235.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4c37d0e.css",
-    "static/js/main.41c1a482.js"
+    "static/css/main.d4c8ba53.css",
+    "static/js/main.938c5235.js"
   ]
 }
